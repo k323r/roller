@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.mpy   # cross compiled byte stuff
 
 # C extensions
 *.so
@@ -26,6 +27,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.lastbuild  # used to store the status of the last build
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
