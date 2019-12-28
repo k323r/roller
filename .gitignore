@@ -28,6 +28,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 .lastbuild  # used to store the status of the last build
+*.swp       # vim swamp files
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
