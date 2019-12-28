@@ -2,7 +2,12 @@ PORT = /dev/ttyUSB0
 AMPY = ampy -p $(PORT)
 MPYCROSS = mpy-cross
 
-SRC = test.py
+SRC = acceleration.py\
+	  speed.py\
+	  mpu6050.py\
+	  constants.py\
+	  SSD1306.py\
+	  cfilter.py
 
 OBJ = $(SRC:.py=.mpy)
 
