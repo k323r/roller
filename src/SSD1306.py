@@ -99,7 +99,7 @@ class SSD1306:
 
 
 class SSD1306_I2C(SSD1306):
-    def __init__(self, width, height, i2c, addr=0x3c, external_vcc=False):
+    def __init__(self, width, height, i2c, addr=0x78, external_vcc=False):
         self.i2c = i2c
         self.addr = addr
         self.temp = bytearray(2)
